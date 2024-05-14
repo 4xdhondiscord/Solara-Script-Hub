@@ -1,0 +1,80 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Consistt/Ui/main/UnLeaked"))()
+
+
+library.rank = "Solara User"
+local Wm = library:Watermark("Solara Scripts | 4XDH" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
+local FpsWm = Wm:AddWatermark("fps: " .. library.fps)
+coroutine.wrap(function()
+    while wait(.75) do
+        FpsWm:Text("fps: " .. library.fps)
+    end
+end)()
+
+
+local Notif = library:InitNotifications()
+
+for i = 1,0,-1 do 
+    task.wait(0.05)
+    local LoadingXSX = Notif:Notify("SOLARA SCRIPTS IS LOADING, please be patient.", 3, "information") -- notification, alert, error, success, information
+end 
+
+library.title = "Solara Scripts \\ #best"
+
+library:Introduction()
+wait(1)
+local Init = library:Init()
+
+local Tab1 = Init:NewTab("Solara Scripts")
+
+local Section1 = Tab1:NewSection(".gg/getSolara")
+
+local Button1 = Tab1:NewButton("Da hood", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/neMabYbU"))()
+end)
+local Button1 = Tab1:NewButton("Arsenal", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/cris123452/my/main/cas",true))()
+end)
+local Button1 = Tab1:NewButton("Blade Ball", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparry.lua"))()
+end)
+local Button1 = Tab1:NewButton("Blox Fruits", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Yuri/main/Winterhub_V2.lua"))()
+end)
+local Button1 = Tab1:NewButton("Build A Boat", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/0KLv0p2g"))()
+end)
+local Button1 = Tab1:NewButton("Evade", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua'))()
+end)
+local Button1 = Tab1:NewButton("Doors", function()
+	loadstring(game:HttpGet('https://rawscripts.net/raw/DOORS-FFJ-Hub-11365'))()
+end)
+local Button1 = Tab1:NewButton("The Strongest Battlegrounds", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sandwichk/RobloxScripts/main/Scripts/BadWare/Hub/Load.lua", true))()
+end)
+local Button1 = Tab1:NewButton("Flee The Facility", function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/3uMsh1vn'))()
+end)
+local Button1 = Tab1:NewButton("Counter Blox", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fliskScript/jaran.vip/main/free.lua"))()
+end)
+local Button1 = Tab1:NewButton("Phantom Forces ESP", function()
+	loadstring(game:HttpGet("https://pastebin.com/C0YQndnb"))()
+end)
+local Button1 = Tab1:NewButton("Driving Empire", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/drivingempire", true))()
+end)
+local Button1 = Tab1:NewButton("Universal Aimbot", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+end)
+local Button1 = Tab1:NewButton("Murder Mystery 2", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/mT10xnt7"), true))()
+end)
+local Button1 = Tab1:NewButton("Dusty Trip", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+end)
+local Button1 = Tab1:NewButton("Slap Battles", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
+end)
+local FinishedLoading = Notif:Notify("Loaded Solara Scripts", 4, "success")
+library:UpdateKeybind(Enum.KeyCode.RightAlt)
